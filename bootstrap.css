@@ -1,0 +1,299 @@
+
+     /* * */
+body{
+    background-color:Snow;
+    font-family: 'Suez One', serif;}
+
+    /* CSS for nav */
+
+
+.navbar{
+    border-bottom: palevioletred solid 5px ;
+ }
+
+ .navbar-brand{
+    font-size: 33px!important;
+    color:palevioletred !important;
+}
+
+.navbar button, .header button, .modal button{
+    background-color: palevioletred !important;
+    color: black; 
+    box-shadow: 2px 2px 2px black;
+}
+ button :hover{
+    background-color:gray;
+    cursor: pointer;
+
+    
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-size: 15px !important;
+    color: lightgray !important; 
+
+    
+}
+.navbar-nav{
+    margin-left: 550px;
+}
+
+i{
+    text-shadow: 2px 2px 2px black;
+    color:palevioletred !important;
+
+}
+
+i:hover{
+    text-shadow: 2px 2px 2px palevioletred;
+    color:black !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: palevioletred !important;
+    cursor: pointer;
+}
+
+/* main background image  */
+
+#main{
+    background-image: url('https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;  
+        height:100vh;
+    
+}
+
+/* css icons section */
+
+#icons-section{
+    margin-top:15px;
+
+}
+
+#icons-section h3,p{
+    margin-top: 20px;
+
+}
+
+#icons-section h3:hover{
+    color:palevioletred;
+}
+
+/* work section  */
+
+.work{
+    margin-top: 40px;
+    background-image:url('https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.bor{
+    padding: 5px;
+}
+
+.work h2:hover {
+    color:black !important;
+    text-shadow:2px 2px palevioletred;
+}
+
+/* css 3 cards section */
+
+.bootstrap-cards{margin:2px;
+}
+
+.bootstrap-cards h2:hover{
+    color:palevioletred;
+    text-shadow:2px 2px black;
+}
+
+.card-title {
+    text-shadow: 2px 2px palevioletred}
+
+.display-3, .work h2 {
+        text-shadow:2px 2px black}
+
+.card{
+    box-shadow: 3px 3px 3px black;
+    margin:4px;
+
+}
+
+/* CSS corousels slides section */
+
+#bootstrapcorousels img{
+    border-radius: 5%;}
+ 
+
+.content h2{
+    text-shadow: 2px 2px palevioletred;
+
+}
+
+.content h2:hover{    color:palevioletred;
+    text-shadow: 2px 2px black;
+
+
+
+}
+
+/* css image over lap history section */
+
+
+.history-content{
+    position: relative;
+    box-shadow: 15px 15px 15px gray;
+    background-color :#e2cfcf;
+
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    
+}
+
+#history-section button{
+    background-color:black !important;
+    color: mintcream; 
+    box-shadow: 2px 2px 2px black;}
+
+    #history-section button:hover{
+        background-color:palevioletred !important;
+        color: black; 
+        box-shadow: 2px 2px 2px black;}
+
+.history-heading{
+
+    text-shadow: 2px 2px palevioletred;
+
+}
+
+#history-section h2:hover{ 
+
+    color:palevioletred;
+    text-shadow: 2px 2px black;
+}
+
+.history-content-wrapper{
+
+        height:180px
+ }
+
+#history-section img{
+
+            position: absolute;
+            margin-top:-180px;
+            margin-left:-30px;
+            
+}
+
+/* ourwork-style section */
+
+.work-title h1{
+    text-shadow: 2px 2px palevioletred;
+
+}
+
+.work-title h1:hover{    color:palevioletred;
+    text-shadow: 2px 2px black;
+
+
+
+
+}
+
+
+/* image gallary */
+
+.image-section img{
+
+    width:250px;
+    height:250px;
+    margin:2px;
+
+
+}
+
+.imagegallary .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+
+
+}
+
+.image-section{
+
+    position: relative;
+
+}
+
+.imageover-lay{
+
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:200px;
+    height:200px;
+    background-color: rgb(26,0,26);
+    border-radius: 5%;
+    opacity: 0%;
+    /* opacity 0 - text cannot be seee.  */
+
+
+}
+
+.image-section:hover .imageover-lay{
+
+    width:250px;
+    height:250px;
+    opacity: 50%;
+
+
+}
+
+.image-text{
+    color:white;
+    position: absolute;
+}
+
+
+/* form section  */
+
+.formsection{
+    background-color: black;
+    color:whitesmoke
+}
+
+.icons-wrapper i{
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.icons-wrapper i:hover{
+
+    text-shadow: 2px 2px 2px white !important;
+    color:palevioletred !important;
+
+}
+
+.left-side-content-wrapper h3{ 
+    color:palevioletred !important;
+}
+
+.left-side-content-wrapper h3:hover{
+border-bottom:2px solid thistle;
+width:200px;
+
+}
+
+.form-wrapper button{
+    background-color: palevioletred !important;
+    color: whitesmoke; }
